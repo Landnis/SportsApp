@@ -54,9 +54,9 @@ class DetailsCollectionViewCell: UICollectionViewCell {
             starButton.tintColor = .lightText
             starButton.layer.borderColor = UIColor.lightText.cgColor
         }
-        NotificationCenter.default.post(name: NSNotification.Name("UpdateSportsDescription"), object: nil)
 
     }
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
