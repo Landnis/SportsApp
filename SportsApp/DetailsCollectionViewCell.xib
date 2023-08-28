@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DetailsCollectionViewCell" customModule="SportsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="205"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="239" height="205"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mdj-jZ-hXe">
+                        <rect key="frame" x="0.0" y="59" width="239" height="146"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTJ-IE-XEt">
+                                <rect key="frame" x="5" y="5" width="229" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eey-l1-Wxo"/>
+                                </constraints>
+                                <color key="tintColor" red="0.1669733555" green="0.30045428829999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeV-kX-rIN">
+                                <rect key="frame" x="114.66666666666667" y="48" width="10" height="10"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="rIW-BS-8Qn"/>
+                                    <constraint firstAttribute="width" constant="10" id="sOf-56-KBY"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IF-PQ-gld">
+                                <rect key="frame" x="5" y="66" width="229" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.035772118030000001" green="0.085721528869999994" blue="0.16225032219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="9IF-PQ-gld" firstAttribute="top" secondItem="KeV-kX-rIN" secondAttribute="bottom" constant="8" symbolic="YES" id="Asq-cU-6SX"/>
+                            <constraint firstItem="aTJ-IE-XEt" firstAttribute="top" secondItem="Mdj-jZ-hXe" secondAttribute="top" constant="5" id="HhL-OU-lvW"/>
+                            <constraint firstAttribute="bottom" secondItem="9IF-PQ-gld" secondAttribute="bottom" id="JnY-b4-rjq"/>
+                            <constraint firstAttribute="trailing" secondItem="9IF-PQ-gld" secondAttribute="trailing" constant="5" id="T3E-5y-LYT"/>
+                            <constraint firstItem="KeV-kX-rIN" firstAttribute="top" secondItem="aTJ-IE-XEt" secondAttribute="bottom" constant="13" id="Ux4-ie-NE4"/>
+                            <constraint firstItem="9IF-PQ-gld" firstAttribute="leading" secondItem="Mdj-jZ-hXe" secondAttribute="leading" constant="5" id="VWE-4c-PQ2"/>
+                            <constraint firstAttribute="trailing" secondItem="aTJ-IE-XEt" secondAttribute="trailing" constant="5" id="lEC-pI-ifg"/>
+                            <constraint firstItem="aTJ-IE-XEt" firstAttribute="leading" secondItem="Mdj-jZ-hXe" secondAttribute="leading" constant="5" id="nSF-pp-dwV"/>
+                            <constraint firstItem="KeV-kX-rIN" firstAttribute="centerX" secondItem="Mdj-jZ-hXe" secondAttribute="centerX" id="sQm-2K-FTw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="Mdj-jZ-hXe" secondAttribute="top" id="3KR-8a-D2A"/>
+                <constraint firstItem="Mdj-jZ-hXe" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="fhW-ld-CEZ"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="Mdj-jZ-hXe" secondAttribute="trailing" id="nR8-Kf-62C"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="Mdj-jZ-hXe" secondAttribute="bottom" id="rND-nK-ciY"/>
+            </constraints>
+            <size key="customSize" width="239" height="205"/>
+            <connections>
+                <outlet property="containerView" destination="Mdj-jZ-hXe" id="jZz-15-WHR"/>
+                <outlet property="dateButton" destination="aTJ-IE-XEt" id="WTn-oc-dsS"/>
+                <outlet property="sportsDescriptionLabel" destination="9IF-PQ-gld" id="jcW-JY-Wcg"/>
+                <outlet property="starButton" destination="KeV-kX-rIN" id="wSm-Wo-3ys"/>
+            </connections>
+            <point key="canvasLocation" x="199.23664122137404" y="54.577464788732399"/>
+        </collectionViewCell>
+    </objects>
+</document>
